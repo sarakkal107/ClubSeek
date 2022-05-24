@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ClubSeek"
+version = "0.1.0"
+description = "ClubSeek is a Club Discovery Application that helps individuals find safe and popular clubs nces."
+authors = ["Eshaan Mathur <eshaanm25@gmail.com>"]
+license = "mit"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.1.1"
+flask-expects-json = "^1.7.0"
+get-docker-secret = "^1.0.2"
+SQLAlchemy = "^1.4.35"
+PyMySQL = "^1.0.2"
+Flask-SQLAlchemy = "^2.5.1"
+Flask-HTTPAuth = "^4.6.0"
+Werkzeug = "^2.1.2"
+cryptography = "^37.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+requests = "^2.27.1"
+
+[build-system]
+requires = ["poetry-core>=1.1.13"]
+build-backend = "poetry.core.masonry.api"
