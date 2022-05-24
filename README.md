@@ -2,11 +2,6 @@
 # ClubSeek
 ClubSeek is service that specializes in recommending bars based on user preferences of quality and occupancy. Clients can use the API to view available Bars and get recommendations based on their personal preferences. Bar Owners can use the API to perform CRUD operations on Bars and view clients assigned to their bar
 
-## Understanding the Documentation
-For this project, we have two main documentation files: 
-- [**Major Project Summary Document - Team 4**](https://github.com/radical-teach/major-project-group-4/blob/main/Summary.pdf) - provides only the details of the final iteration of the project, including all assumptions, requirements, diagrams, testing, backlog, etc. The comprehensive report shows the sprint-by-sprint evolution of the project, so diagrams and documentation within that report will show change over time
-- [**Major Project Comprehensive Report - Team 4**](https://github.com/radical-teach/major-project-group-4/blob/main/Comprehensive.pdf) In order to get a quick grasp of our project, view the summary document and utilize the comprehensive report for the more detailed documentation
-
 ## Quick Start
 1. Install Docker. See [Docker Installation Instructions](https://docs.docker.com/get-docker/)
 
@@ -83,3 +78,9 @@ GitHub Actions also push images to the GitHub Container Registry and AWS Elastic
 
 GitHub Actions work by running Unit Testing and Integration Testing containers that are declared in [dockerTestingFiles](https://github.com/radical-teach/major-project-group-4/tree/main/dockerTestingFiles "dockerTestingFiles") and reading their error codes to determine if tests have failed or passed
 
+## Contributors 
+1. Sidhu Arakkal
+2. Akanksha Arun
+3. Eshaan Mathur
+4. Eoin O’Hare 
+5. Mohammad Awais Zubair 
